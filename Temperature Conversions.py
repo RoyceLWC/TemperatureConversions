@@ -177,7 +177,7 @@ def menu():
         index = input("Select an index: ")
         try:
             index = int(index)
-            if index <= 3 and index >= 1:
+            if index <= 4 and index >= 1:
                 bool_index = True
             else:
                 print("Out of range!")
